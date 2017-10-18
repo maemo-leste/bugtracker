@@ -16,4 +16,4 @@ Goals
   temporarily while we bring up the OS
 * Limit supported devices to a few specific ones in order to avoid spending a
   lot of time on hardware enablement / bringup
-* Replacing upstream-dead at some point is a good thing
+* Replacing upstream-dead projects at some point is a good thing
