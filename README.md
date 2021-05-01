@@ -4,7 +4,7 @@ Maemo Leste
 This bugtracker of this repository contains tasks that we want to pick and
 issues that we want to solve.
 
-[![issues over time](http://parazyd.enemy.org/issues.png)]
+![issues over time](graph.png)
 
 Goals
 -----
