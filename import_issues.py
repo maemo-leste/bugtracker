@@ -29,7 +29,7 @@ day += one_day
 result = {}
 
 f = open("result.tsv", "w")
-f.write("date\topen_issues\tclosed_issues\n")
+f.write("date\tOpen\tClosed\n")
 
 while day < now:
     key = day.strftime("%Y-%m-%d")
