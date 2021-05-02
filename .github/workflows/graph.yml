@@ -40,7 +40,7 @@ jobs:
               run: |
                 git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
                 git config --local user.name "parazyd"
-                git commit -m "Add today's graph" graph.png
+                git commit -m "Add today's graph" graph.png result.tsv
             - name: Push changes
               uses: ad-m/github-push-action@master
               with:
