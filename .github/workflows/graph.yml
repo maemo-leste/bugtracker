@@ -19,8 +19,8 @@ jobs:
                 python-version: ${{ matrix.python-version }}
             - name: Install deps
               run: |
-                apt-get update
-                apt-get -y install gnuplot make
+                sudo apt-get update
+                sudo apt-get -y install gnuplot make
                 python -m pip install --upgrade pip
                 pip install github3.py
             - name: Compile
