@@ -41,7 +41,7 @@ jobs:
                 git config --local user.name "parazyd"
                 git commit -m "Add today's graph" graph.png
             - name: Push changes
-              uses: ad-m/githuib-push-action@master
+              uses: ad-m/github-push-action@master
               with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
                 branch: ${{ github.ref }}
